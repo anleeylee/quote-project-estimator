@@ -1,4 +1,17 @@
 # bfc-estimate — Lumber Quote & Project Estimator
+<!-- bfc-badges -->
+<div align="center">
+
+**English** · [简体中文](./docs/README.zh-CN.md)
+
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-339933?logo=nodedotjs&logoColor=white)
+![CLI](https://img.shields.io/badge/CLI-Commander-6F42C1?logo=gnubash&logoColor=white)
+![Tests](https://img.shields.io/badge/tests-11%20passed-2ea44f)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
+</div>
+
 
 Estimate a lumber quote straight from a cut list. Every line shows **net
 board feet** (the finished part), **gross board feet** (with waste), the
