@@ -126,7 +126,7 @@ prices are never taxed a second time).
 ## Engine
 
 Frozen copy of the shared
-[BoardFootCalc Desktop Lumber Calculation Engine](https://boardfootcalc.net/) in `src/core/`
+[BoardFootCalc Desktop Lumber Calculation Engine](https://boardfootcalc.net/lumber-cost-calculator/) in `src/core/`
 — board feet, billing profiles, waste factors, pricing modes and tax handling
 are identical across all five tools and the
 [online calculators](https://boardfootcalc.net/lumber-cost-calculator/).

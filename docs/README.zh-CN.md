@@ -1,6 +1,6 @@
 # bfc-estimate — 木材报价与项目估算器
 
-> 英文原版：[English](../README.md) · 在线计算器：[https://boardfootcalc.net](https://boardfootcalc.net/)
+> 英文原版：[English](../README.md) · 在线计算器：[https://boardfootcalc.net/lumber-cost-calculator/](https://boardfootcalc.net/lumber-cost-calculator/)
 
 直接从切割清单估算木材报价。每一行都显示**净板尺**（成品零件）、**毛板尺**（含废料）、经销商实际会收取的**计费板尺**（按计费档位取整）以及木种价目表价格 — 整个项目再叠加加价、税、运费、杂费和折扣，汇总成一份整洁可分享的报价。
 
@@ -37,7 +37,7 @@ bfc-estimate quote --project myjob.json --out quote.html
 
 ## 计算引擎
 
-本工具内置了共享的 [BoardFootCalc Desktop 木材计算引擎](https://boardfootcalc.net)
+本工具内置了共享的 [BoardFootCalc Desktop 木材计算引擎](https://boardfootcalc.net/lumber-cost-calculator/)
 的冻结副本（位于 `src/core/`，涵盖板尺、单位、标称/实际厚度、四分之一厚度、
 浪费系数、木种、计价与 CSV）。五个工具共用同一套数学逻辑，因此这里算出的数字
 与网站上的在线计算器完全一致。
