@@ -1,0 +1,44 @@
+{
+  "name": "@boardfootcalc/lumber-quote-project-estimator",
+  "version": "1.0.0",
+  "description": "Estimate lumber quotes from a cut list — net/gross board feet with waste factor, dealer billing profile, species price lists, markup, tax & fees, and shareable HTML/CSV/JSON quotes.",
+  "type": "commonjs",
+  "main": "dist/features/index.js",
+  "bin": {
+    "bfc-estimate": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "sample-data"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "start": "node dist/cli.js",
+    "demo": "node dist/cli.js demo"
+  },
+  "keywords": [
+    "lumber",
+    "quote",
+    "estimate",
+    "board-foot",
+    "project",
+    "cost-estimator",
+    "woodworking",
+    "hardwood"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "xlsx": "^0.18.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.5.4",
+    "vitest": "^2.1.8"
+  }
+}
