@@ -44,7 +44,7 @@ and [Board Foot Formula Explained](https://boardfootcalc.net/board-foot-formula-
 ## Install
 
 ```bash
-git clone <your-repo-url> bfc-estimate
+git clone https://github.com/anleeylee/quote-project-estimator bfc-estimate
 cd bfc-estimate
 npm install
 npm run build

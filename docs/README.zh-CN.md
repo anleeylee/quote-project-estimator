@@ -19,7 +19,7 @@
 ## 安装
 
 ```bash
-git clone <your-repo-url> 05-lumber-quote-project-estimator
+git clone https://github.com/anleeylee/quote-project-estimator 05-lumber-quote-project-estimator
 cd 05-lumber-quote-project-estimator
 npm install
 npm run build        # 编译到 dist/
